@@ -1,5 +1,7 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 from django.utils import timezone
+from datetime import time
 from .usuario import Usuario, Escritorio
 from .cliente import Cliente
 from .processo import Processo
@@ -77,9 +79,9 @@ class WhatsAppConfig(models.Model):
         blank=True
     )
     
-    # Horário de funcionamento
-    horario_inicio = models.TimeField('Horário de Início', default='09:00')
-    horario_fim = models.TimeField('Horário de Fim', default='18:00')
+    # Horário de funcionamento - CORRIGIDO: Usando TimeField
+    horario_inicio = models.TimeField('Horário de Início', default=time(9, 0))
+    horario_fim = models.TimeField('Horário de Fim', default=time(18, 0))
     funcionar_fim_semana = models.BooleanField('Funcionar no Fim de Semana', default=False)
     
     # Auditoria
@@ -126,7 +128,7 @@ class WhatsAppConfig(models.Model):
         if dia_semana >= 5 and not self.funcionar_fim_semana:
             return False
         
-        # Verifica horário
+        # Verifica horário - CORRIGIDO: agora compara time com time
         return self.horario_inicio <= hora_atual <= self.horario_fim
     
     def pode_usar(self, usuario):
@@ -151,7 +153,7 @@ class WhatsAppConfig(models.Model):
         """Incrementa contador de mensagens recebidas"""
         self.mensagens_recebidas += 1
         self.save(update_fields=['mensagens_recebidas'])
-
+        
 
 class MensagemWhatsApp(models.Model):
     """Mensagens do WhatsApp"""
@@ -615,4 +617,5 @@ class ConversaWhatsApp(models.Model):
                 if horas_passadas > 24 and self.mensagens_nao_lidas == 0:
                     self.aberta = False
             
+
             self.save()
