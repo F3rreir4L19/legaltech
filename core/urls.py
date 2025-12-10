@@ -19,7 +19,16 @@ from .views import (
     FluxoChatbotViewSet,
     ConversaWhatsAppViewSet,
 )
-
+from .views_whatsapp import (
+    painel_whatsapp,
+    api_whatsapp_configs,
+    api_conversas,
+    api_mensagens,
+    api_enviar_mensagem,
+    api_marcar_lida,
+    api_permissoes,
+    api_atribuir_conversa,
+)
 # Router para gerar automaticamente as URLs RESTful
 router = DefaultRouter()
 
@@ -46,7 +55,13 @@ urlpatterns = [
     # Include router URLs
     path('', include(router.urls)),
     
-    # URLs customizadas (ações específicas) podem ser adicionadas aqui
-    # Exemplo:
-    # path('processos/<int:pk>/gerar-relatorio/', views.gerar_relatorio_processo),
+    # URLs do Painel WhatsApp
+    path('whatsapp/painel/', painel_whatsapp, name='painel-whatsapp'),
+    path('whatsapp/configs/', api_whatsapp_configs, name='api-whatsapp-configs'),
+    path('whatsapp/<int:config_id>/conversas/', api_conversas, name='api-conversas'),
+    path('whatsapp/<int:config_id>/mensagens/<str:numero_contato>/', api_mensagens, name='api-mensagens'),
+    path('whatsapp/<int:config_id>/enviar/', api_enviar_mensagem, name='api-enviar-mensagem'),
+    path('whatsapp/<int:config_id>/mensagens/<int:mensagem_id>/marcar-lida/', api_marcar_lida, name='api-marcar-lida'),
+    path('whatsapp/<int:config_id>/permissoes/', api_permissoes, name='api-permissoes'),
+    path('whatsapp/<int:config_id>/atribuir/<str:numero_contato>/', api_atribuir_conversa, name='api-atribuir-conversa'),
 ]
