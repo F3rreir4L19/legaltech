@@ -1,0 +1,1097 @@
+INFO 2025-12-08 12:43:24,099 autoreload Watching for file changes with StatReloader
+WARNING 2025-12-08 12:43:26,781 log Not Found: /
+WARNING 2025-12-08 12:43:26,781 basehttp "GET / HTTP/1.1" 404 2695
+WARNING 2025-12-08 12:43:26,827 log Not Found: /favicon.ico
+WARNING 2025-12-08 12:43:26,827 basehttp "GET /favicon.ico HTTP/1.1" 404 2746
+INFO 2025-12-08 12:43:34,264 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-12-08 12:43:34,281 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-08 12:43:34,285 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3181
+INFO 2025-12-08 12:43:34,394 basehttp "GET /static/vendor/bootswatch/flatly/bootstrap.min.css HTTP/1.1" 200 164819
+INFO 2025-12-08 12:43:34,396 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-12-08 12:43:34,398 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-12-08 12:43:34,399 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+INFO 2025-12-08 12:43:34,401 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-12-08 12:43:34,401 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-12-08 12:43:34,401 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-12-08 12:43:34,401 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-12-08 12:43:34,494 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+INFO 2025-12-08 12:43:48,885 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-08 12:43:48,942 basehttp "GET /admin/ HTTP/1.1" 200 38776
+INFO 2025-12-08 12:43:48,953 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-12-08 12:43:48,969 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+INFO 2025-12-08 12:43:48,970 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 76764
+INFO 2025-12-08 12:43:56,002 basehttp "GET /admin/core/usuario/ HTTP/1.1" 200 30359
+INFO 2025-12-08 12:43:56,014 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-12-08 12:43:56,014 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-12-08 12:43:56,015 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-08 12:43:56,016 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-12-08 12:43:56,016 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-12-08 12:43:56,017 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-08 12:43:56,017 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-08 12:43:56,020 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-12-08 12:43:56,020 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-12-08 12:43:56,021 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-12-08 12:43:56,049 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:43:59,575 basehttp "GET /admin/core/escritorio/ HTTP/1.1" 200 23176
+INFO 2025-12-08 12:43:59,620 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:44:05,785 basehttp "GET /admin/core/cliente/ HTTP/1.1" 200 29154
+INFO 2025-12-08 12:44:05,837 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:44:10,135 basehttp "GET /admin/core/cliente/add/ HTTP/1.1" 200 76769
+INFO 2025-12-08 12:44:10,161 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-12-08 12:44:10,161 basehttp "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2025-12-08 12:44:10,162 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-12-08 12:44:10,162 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-12-08 12:44:10,162 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-12-08 12:44:10,165 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-12-08 12:44:10,165 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-12-08 12:44:10,168 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-12-08 12:44:10,169 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-12-08 12:44:10,170 basehttp "GET /static/jazzmin/plugins/bootstrap-show-modal/bootstrap-show-modal.min.js HTTP/1.1" 200 2756
+INFO 2025-12-08 12:44:10,171 basehttp "GET /static/jazzmin/js/related-modal.js HTTP/1.1" 200 6258
+INFO 2025-12-08 12:44:10,192 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:44:14,117 basehttp "GET /admin/core/processo/ HTTP/1.1" 200 26248
+INFO 2025-12-08 12:44:14,159 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:44:15,318 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:44:15,382 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+ERROR 2025-12-08 12:44:19,247 log Internal Server Error: /admin/core/financeiro/add/
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'valor_pendente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 272, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 303, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Financeiro has no field named 'valor_pendente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\helpers.py", line 273, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 283, in lookup_field
+    attr = getattr(obj, name)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py", line 184, in valor_pendente
+    return self.valor - self.valor_pago
+           ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+ERROR 2025-12-08 12:44:19,252 basehttp "GET /admin/core/financeiro/add/ HTTP/1.1" 500 702692
+INFO 2025-12-08 12:44:27,285 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:45:26,768 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:45:28,318 basehttp "GET /admin/core/andamento/ HTTP/1.1" 200 25685
+INFO 2025-12-08 12:45:28,374 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:45:30,671 basehttp "GET /admin/core/andamento/add/ HTTP/1.1" 200 37456
+INFO 2025-12-08 12:45:30,680 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-12-08 12:45:30,719 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:45:33,801 basehttp "GET /admin/core/whatsappconfig/ HTTP/1.1" 200 24807
+INFO 2025-12-08 12:45:33,851 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+ERROR 2025-12-08 12:45:41,984 log Internal Server Error: /admin/core/whatsappconfig/add/
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'em_horario_funcionamento'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 272, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 303, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: WhatsAppConfig has no field named 'em_horario_funcionamento'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\helpers.py", line 273, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 283, in lookup_field
+    attr = getattr(obj, name)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\whatsapp.py", line 130, in em_horario_funcionamento
+    return self.horario_inicio <= hora_atual <= self.horario_fim
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.time'
+ERROR 2025-12-08 12:45:42,000 basehttp "GET /admin/core/whatsappconfig/add/ HTTP/1.1" 500 701223
+INFO 2025-12-08 12:48:00,172 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 12:48:00,507 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 12:48:01,788 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 12:48:02,098 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 12:48:19,981 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 12:48:20,296 autoreload Watching for file changes with StatReloader
+ERROR 2025-12-08 12:48:24,368 log Internal Server Error: /admin/core/whatsappconfig/add/
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'em_horario_funcionamento'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 272, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 303, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: WhatsAppConfig has no field named 'em_horario_funcionamento'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\helpers.py", line 273, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 283, in lookup_field
+    attr = getattr(obj, name)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\whatsapp.py", line 130, in em_horario_funcionamento
+    return self.horario_inicio <= hora_atual <= self.horario_fim
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.time'
+ERROR 2025-12-08 12:48:24,383 basehttp "GET /admin/core/whatsappconfig/add/ HTTP/1.1" 500 701360
+INFO 2025-12-08 12:48:25,418 basehttp "GET /admin/core/whatsappconfig/ HTTP/1.1" 200 24807
+INFO 2025-12-08 12:48:28,738 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:48:28,790 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+ERROR 2025-12-08 12:48:29,961 log Internal Server Error: /admin/core/financeiro/add/
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'valor_pendente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 272, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 303, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Financeiro has no field named 'valor_pendente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\helpers.py", line 273, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 283, in lookup_field
+    attr = getattr(obj, name)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py", line 186, in valor_pendente
+    return self.valor - self.valor_pago
+           ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+ERROR 2025-12-08 12:48:29,965 basehttp "GET /admin/core/financeiro/add/ HTTP/1.1" 500 702895
+INFO 2025-12-08 12:48:50,472 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 12:48:52,967 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:48:54,900 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:48:54,944 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+ERROR 2025-12-08 12:48:56,301 log Internal Server Error: /admin/core/financeiro/add/
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'valor_pendente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 272, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 303, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Financeiro has no field named 'valor_pendente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\helpers.py", line 273, in contents
+    f, attr, value = lookup_field(field, obj, model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 283, in lookup_field
+    attr = getattr(obj, name)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py", line 186, in valor_pendente
+    return self.valor - self.valor_pago
+           ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'
+ERROR 2025-12-08 12:48:56,318 basehttp "GET /admin/core/financeiro/add/ HTTP/1.1" 500 702895
+INFO 2025-12-08 12:53:35,611 basehttp "GET /admin/core/financeiro/ HTTP/1.1" 200 25012
+INFO 2025-12-08 12:53:46,001 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 21544
+INFO 2025-12-08 12:53:46,052 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:53:48,373 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 30241
+INFO 2025-12-08 12:53:48,425 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-12-08 12:53:48,427 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-12-08 12:53:48,427 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:53:48,468 basehttp "GET /static/jazzmin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-12-08 12:54:05,817 basehttp "GET /admin/auth/ HTTP/1.1" 200 20335
+INFO 2025-12-08 12:54:06,791 basehttp "GET /admin/ HTTP/1.1" 200 38776
+INFO 2025-12-08 12:54:10,518 basehttp "GET /admin/core/usuario/1/change/ HTTP/1.1" 200 59239
+INFO 2025-12-08 12:54:10,563 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:54:28,618 basehttp "GET /admin/ HTTP/1.1" 200 38776
+INFO 2025-12-08 12:54:38,950 basehttp "GET /admin/core/usuario/1/change/ HTTP/1.1" 200 59255
+INFO 2025-12-08 12:54:38,993 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:54:51,634 basehttp "POST /admin/core/usuario/1/change/ HTTP/1.1" 302 0
+INFO 2025-12-08 12:54:51,690 basehttp "GET /admin/core/usuario/ HTTP/1.1" 200 30965
+INFO 2025-12-08 12:54:51,735 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:54:57,351 basehttp "GET /admin/core/usuario/1/change/ HTTP/1.1" 200 59270
+INFO 2025-12-08 12:54:57,397 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:55:36,818 basehttp "POST /admin/core/usuario/1/change/ HTTP/1.1" 302 0
+INFO 2025-12-08 12:55:36,984 basehttp "GET /admin/core/usuario/ HTTP/1.1" 200 30965
+INFO 2025-12-08 12:55:37,030 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:55:41,407 basehttp "GET /admin/core/escritorio/ HTTP/1.1" 200 23202
+INFO 2025-12-08 12:55:41,459 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:55:44,404 basehttp "GET /admin/ HTTP/1.1" 200 41940
+INFO 2025-12-08 12:55:50,991 basehttp "GET /admin/core/fluxochatbot/ HTTP/1.1" 200 23652
+INFO 2025-12-08 12:55:51,034 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:55:52,956 basehttp "GET /admin/core/fluxochatbot/add/ HTTP/1.1" 200 46449
+INFO 2025-12-08 12:55:52,997 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 12:56:13,301 basehttp "GET /admin/core/mensagemwhatsapp/ HTTP/1.1" 200 27126
+INFO 2025-12-08 12:56:13,352 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 14:08:15,282 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 14:08:15,783 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 14:08:19,449 basehttp "GET /admin/core/mensagemwhatsapp/ HTTP/1.1" 200 27113
+INFO 2025-12-08 14:08:19,468 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,470 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,470 basehttp "GET /static/vendor/bootswatch/flatly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,473 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,474 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,474 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,475 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,475 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,475 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,476 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,477 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,477 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,478 basehttp "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,478 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,478 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,482 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,482 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,484 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,484 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,511 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 14:08:19,530 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,531 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:19,531 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-12-08 14:08:35,075 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 14:08:35,400 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 14:08:41,821 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 14:08:42,271 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 14:08:43,015 basehttp "GET /admin/core/mensagemwhatsapp/ HTTP/1.1" 200 27112
+INFO 2025-12-08 14:08:43,060 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 14:09:26,081 autoreload C:\Users\Pessoa 03\Documents\projetos\django\legaltech\core\models\financeiro.py changed, reloading.
+INFO 2025-12-08 14:09:26,411 autoreload Watching for file changes with StatReloader
+INFO 2025-12-08 14:09:32,327 basehttp "GET /admin/core/mensagemwhatsapp/ HTTP/1.1" 200 27099
+INFO 2025-12-08 14:09:32,374 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
+INFO 2025-12-08 14:09:39,756 basehttp "GET /admin/core/conversawhatsapp/ HTTP/1.1" 200 23402
+INFO 2025-12-08 14:09:39,800 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8876
