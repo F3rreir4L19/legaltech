@@ -1,0 +1,154 @@
+{% extends "admin/base_site.html" %}
+{% load jazzmin %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card bg-gradient-primary">
+                <div class="card-body">
+                    <h1 class="text-white">⚖️ LegalFlow</h1>
+                    <p class="text-white-50">Sistema de Gestão Jurídica</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Cards de Acesso Rápido -->
+    <div class="row mb-4">
+        <div class="col-lg-3 col-md-6">
+            <div class="card card-primary card-outline">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-users mr-2"></i> Clientes</h5>
+                    <p class="card-text">Gerencie seus clientes e contatos</p>
+                    <a href="/admin/core/cliente/" class="btn btn-primary">Acessar</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="card card-success card-outline">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-gavel mr-2"></i> Processos</h5>
+                    <p class="card-text">Controle todos os processos</p>
+                    <a href="/admin/core/processo/" class="btn btn-success">Acessar</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="card card-warning card-outline">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-calendar-alt mr-2"></i> Prazos</h5>
+                    <p class="card-text">Acompanhe prazos e audiências</p>
+                    <a href="/admin/core/prazo/" class="btn btn-warning">Acessar</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="card card-purple card-outline">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fab fa-whatsapp mr-2"></i> WhatsApp</h5>
+                    <p class="card-text">Central de mensagens</p>
+                    <a href="/api/whatsapp/painel/" class="btn btn-purple">Acessar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Alertas e Notificações -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="mb-0"><i class="fas fa-exclamation-triangle mr-2"></i> Alertas Urgentes</h5>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-warning">
+                        <strong>3 Prazos vencem hoje!</strong>
+                        <a href="/admin/core/prazo/?data_limite__today=1" class="float-right">Ver</a>
+                    </div>
+                    <div class="alert alert-info">
+                        <strong>5 Mensagens não lidas no WhatsApp</strong>
+                        <a href="/admin/core/mensagemswhatsapp/?lida=0" class="float-right">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Calendário Mini -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title"><i class="far fa-calendar mr-2"></i> Agenda do Dia</h5>
+                </div>
+                <div class="card-body">
+                    {% if proximas_audiencias %}
+                    <ul class="list-group">
+                        {% for audiencia in proximas_audiencias %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            {{ audiencia.processo.numero_cnj }}
+                            <span class="badge badge-primary badge-pill">
+                                {{ audiencia.hora|time:"H:i" }}
+                            </span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="text-muted">Nenhuma audiência agendada para hoje.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        
+        <!-- Atividades Recentes -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title"><i class="fas fa-history mr-2"></i> Atividades Recentes</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <small class="text-muted">Hoje 10:30</small><br>
+                            Processo 0001234-56.2024.8.26.0001 atualizado
+                        </li>
+                        <li class="list-group-item">
+                            <small class="text-muted">Hoje 09:15</small><br>
+                            Nova mensagem do cliente Marcos Silva
+                        </li>
+                        <li class="list-group-item">
+                            <small class="text-muted">Ontem 16:45</small><br>
+                            Prazo prorrogado: Petição Inicial
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CSS Customizado -->
+<style>
+.card-purple {
+    background-color: #6f42c1;
+    color: white;
+}
+.btn-purple {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+}
+.btn-purple:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+}
+.bg-gradient-primary {
+    background: linear-gradient(87deg, #117a8b 0, #1a2c4d 100%) !important;
+}
+</style>
+{% endblock %}
